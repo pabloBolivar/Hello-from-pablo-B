@@ -1,0 +1,123 @@
+header {
+  min-height: 499px;
+}
+.h-container::before {
+  background: radial-gradient(circle, transparent 65%, black 85%) no-repeat,
+    url("./Imágenes/netflix-slide-big.jpg") no-repeat;
+  background-size: cover;
+}
+.form-1--container {
+  margin: 0 auto;
+  width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-1 form {
+  padding-block-end: 1.6rem;
+  width: 50rem;
+}
+#correo {
+  width: 50rem;
+}
+.section-1 button {
+  height: 5rem;
+}
+
+.se2-container {
+  margin: 0 auto;
+  max-width: 1190px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.se2-text {
+  width: 54%;
+}
+.se2-bot {
+  width: 45.4%;
+  height: fit-content;
+}
+.section-2 img {
+  width: 40.86vw;
+  height: 30.645vw;
+}
+.video2-container {
+  width: 29.83vw;
+  height: 16.85vw;
+}
+.se3-container {
+  margin: 0 auto;
+  max-width: 1190px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.se3-text {
+  width: 54%;
+  order: 1;
+}
+.se3-logo {
+  width: 45.4%;
+  height: 30.645vw;
+}
+.se3-logo img {
+  width: 40.86vw;
+  height: 30.645vw;
+}
+.se3-logo--bot {
+  padding: min(0.56vw, 2.6px) min(1.47vw, 6.9px);
+  width: 26.1vw;
+  height: 5.65vw;
+}
+.se3-logo--bot img {
+  margin-inline-end: min(1.57vw, 23px);
+  width: 3.37vw;
+  height: auto;
+}
+.se3-logo--p {
+  width: 13.88vw;
+}
+.se3-logo--bot::after {
+  width: 4.73vw;
+  height: 4.73vw;
+  outline-offset: -0.2vw;
+}
+.se4-container {
+  margin: 0 auto;
+  max-width: 1190px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.se4-text {
+  width: 54%;
+}
+.se4-bot {
+  width: 45.4%;
+  height: fit-content;
+}
+.section-4 img {
+  width: 40.86vw;
+  height: 30.645vw;
+}
+.video4-container {
+  width: 29.83vw;
+  height: 16.85vw;
+}
+.form-5--container {
+  margin: 0 auto;
+  width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-5 form {
+  padding-block-end: 1.4rem;
+}
+.section-5 button {
+  height: 5rem;
+}
+
+.foot-container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.fsection-2 div {
+  width: 25%;
+}

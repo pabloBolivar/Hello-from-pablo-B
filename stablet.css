@@ -1,0 +1,123 @@
+header {
+  min-height: 503px;
+}
+.h-container::before {
+  background: radial-gradient(circle, transparent 65%, black 85%) no-repeat,
+    url("./Imágenes/619306-bg-full-netflix-grid-v2.desktop.jpg") no-repeat;
+  background-size: cover;
+}
+
+.logo img {
+  width: 10.8rem;
+  height: auto;
+}
+.button-lang {
+  margin-inline-end: min(4.8%, 2.4rem);
+}
+.h-sesion button {
+  width: 12.9rem;
+}
+.section-1 {
+  padding: 60px 45px 50px 45px;
+}
+.section-1--container {
+  margin: 80px auto 0 auto;
+  width: 90%;
+}
+.section-1 h2 {
+  padding-block-end: 17px;
+  font-size: 5rem;
+  line-height: 5.5rem;
+}
+.section-1 p {
+  font-size: 2.4rem;
+  line-height: 2.5rem;
+}
+.section-1 form {
+  padding-block-end: 1.6rem;
+}
+#correo {
+  width: 90%;
+  max-width: 50rem;
+  height: 5rem;
+}
+.section-1 button {
+  width: 32.9vw;
+  max-width: 200.7px;
+}
+.section-2 {
+  padding: 60px 45px 50px 45px;
+}
+.section-3 {
+  padding: 60px 45px 50px 45px;
+}
+.se3-logo--bot {
+  width: 57.48vw;
+  height: 12.44vw;
+}
+.se3-logo--bot img {
+  margin-inline-end: min(3.47vw, 23px);
+  width: 7.43vw;
+  max-width: 50.2px;
+}
+.se3-logo--p {
+  width: 29vw;
+}
+.se3-logo--bot::after {
+  width: 10.41vw;
+  height: 10.41vw;
+  outline-offset: -0.43vw;
+}
+.section-4 {
+  padding: 60px 45px 50px 45px;
+}
+.section-5 {
+  padding-block: 60px 50px;
+}
+.que-es,
+.cuanto-cuesta,
+.donde-ver,
+.como-cancelo,
+.que-ofrece {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 815px;
+}
+.section-5-p {
+  padding-inline: 45px;
+}
+.section-5 form {
+  padding: 0 0 1.4rem 0;
+}
+
+footer {
+  padding: 50px 45px 0 45px;
+}
+.foot-container {
+  width: 100%;
+}
+.fsection-1,
+.fsection-2 {
+  margin: 0 auto;
+  width: 90%;
+}
+.fsection-2 {
+  max-width: 900px;
+}
+.fsection-2 div {
+  width: min(33%, 165px);
+  margin-inline-end: auto;
+}
+
+@media (min-width: 743px) {
+  .f-false-div {
+    display: inherit;
+  }
+}
+
+.fsection-3,
+.fsection-4 {
+  margin: 1.7rem auto;
+  width: 90%;
+  text-align: start;
+}

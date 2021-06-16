@@ -1,0 +1,513 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  height: fit-content;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.8rem;
+  background-color: black;
+}
+
+header {
+  width: 100%;
+  padding-block: 28px 14px;
+  height: fit-content;
+  border-bottom: 8px solid #222;
+  color: white;
+  text-align: center;
+}
+.h-container {
+  position: relative;
+  height: fit-content;
+  width: 100%;
+}
+.h-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 320px;
+  height: 100%;
+  background: radial-gradient(circle, transparent 65%, black 85%) no-repeat,
+    url("./Imágenes/689374-fg-netflix-collage-600x600.jpg") no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+.th-container {
+  position: relative;
+  height: fit-content;
+  width: 92vw;
+  max-width: 912px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.logo {
+  width: 34%;
+}
+.logo img {
+  width: 8.88rem;
+  height: auto;
+}
+.h-right {
+  width: 66%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+.button-lang {
+  position: relative;
+  height: fit-content;
+  min-height: 3.5rem;
+  width: 43%;
+  max-width: 98px;
+  margin-block: 0;
+  margin-inline-end: max(1.2rem, 4.8%);
+  background-color: #050708;
+}
+.button-text1,
+.button-text2 {
+  position: relative;
+  width: 100%;
+  height: 3.5rem;
+  padding-inline-start: 0.8rem;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  text-align: start;
+}
+.lang-pse1::after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 6px;
+  width: 0;
+  height: 0;
+  border: 6px solid white;
+  border-color: #fff transparent transparent transparent;
+}
+.lang-pse2::after {
+  position: absolute;
+  content: "";
+  top: 8px;
+  right: 6px;
+  width: 0;
+  height: 0;
+  border: 6px solid white;
+  border-color: #fff transparent transparent transparent;
+  transform: rotate(180deg);
+}
+.select-lang {
+  position: relative;
+  z-index: 1;
+  top: 1px;
+  padding-inline-end: 0.8rem;
+  background-color: #050708;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  text-align: start;
+}
+.menu-ocult-content {
+  display: none;
+}
+.menu-despl-content {
+  display: block;
+}
+.h-sesion button {
+  padding: 0.7rem 0;
+  width: 10rem;
+  height: 3.4rem;
+  background-color: #e50914;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+main {
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  color: white;
+}
+main h2 {
+  margin-block-end: 13.5px;
+}
+main p {
+  margin-block-end: 16px;
+}
+.section-1 {
+  position: relative;
+  height: fit-content;
+  padding: 60px 16px 50px 16px;
+}
+.form-1--container {
+  height: fit-content;
+}
+.section-1 h2 {
+  font-size: 2.8rem;
+  padding-block-end: 0.7rem;
+  line-height: 2.7rem;
+}
+.section-1 p {
+  margin: 0 auto;
+  padding-block: 0.8rem;
+  width: 92%;
+  line-height: 2.3rem;
+  font-weight: 600;
+}
+.section-1 form {
+  padding-block-end: 1.4rem;
+  width: 100%;
+}
+#correo {
+  height: 4.5rem;
+  width: 98%;
+  padding-inline: 8px;
+  border: 1px solid #8c8c8c;
+  border-radius: 2px;
+}
+.section-1 button {
+  padding: 0.7rem 2rem;
+  background-color: #e30813;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 2rem;
+  width: 17.8rem;
+  height: 6rem;
+}
+.section-2 {
+  height: fit-content;
+  padding: 50px 16px;
+  border-bottom: 8px solid #222;
+  color: white;
+}
+.se2-bot {
+  width: 90vw;
+  max-width: 60rem;
+  height: 67.5vw;
+  max-height: 45rem;
+  margin: 0 auto;
+  position: relative;
+}
+.section-2 img {
+  width: 90vw;
+  max-width: 60rem;
+  height: 67.5vw;
+  max-height: 45rem;
+  position: relative;
+  z-index: 2;
+}
+.video2-container {
+  width: 65.7vw;
+  max-width: 43.799rem;
+  height: 37.12vw;
+  max-height: 24.749rem;
+  position: absolute;
+  top: 48%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+}
+.se2-video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+.section-3 {
+  height: fit-content;
+  padding: 50px 16px;
+  border-bottom: 8px solid #222;
+  color: white;
+}
+.section-3 p {
+  margin-block-end: -2px;
+}
+.se3-logo {
+  position: relative;
+  height: 67.5vw;
+  max-height: 45rem;
+  width: fit-content;
+}
+.se3-logo img {
+  position: relative;
+  height: 67.5vw;
+  max-height: 45rem;
+  width: 90vw;
+  max-width: 60rem;
+}
+.se3-logo--bot {
+  position: absolute;
+  left: 50%;
+  bottom: 7%;
+  transform: translateX(-50%);
+  padding: min(1.25vw, 5.8px) min(3.25vw, 15.3px);
+  background-color: black;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 15px;
+  width: 82.82vw;
+  max-width: 388px;
+  height: 20vw;
+  max-height: 83.2px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.se3-logo--bot img {
+  margin-inline-end: min(5vw, 23px);
+  width: 10.71vw;
+  max-width: 50.2px;
+  height: auto;
+}
+.se3-logo--p {
+  width: 44.06vw;
+  max-width: 206.4px;
+  height: max-content;
+  margin-block: auto;
+  text-align: start;
+}
+.se3-blue-p {
+  color: rgb(0, 113, 235);
+}
+.se3-logo--bot::after {
+  background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif)
+    center center no-repeat;
+  background-size: 100%;
+  width: 15vw;
+  max-width: 70.3px;
+  height: 15vw;
+  max-height: 70.3px;
+  outline: 2px solid #000;
+  outline-offset: -0.625vw;
+  display: block;
+  content: "";
+}
+.section-4 {
+  height: fit-content;
+  padding: 50px 16px;
+  border-bottom: 8px solid #222;
+  color: white;
+}
+.se4-bot {
+  width: 90vw;
+  max-width: 60rem;
+  height: 67.5vw;
+  max-height: 45rem;
+  margin: 0 auto;
+  position: relative;
+}
+.section-4 img {
+  width: 90vw;
+  max-width: 60rem;
+  height: 67.5vw;
+  max-height: 45rem;
+  position: relative;
+  z-index: 2;
+}
+.video4-container {
+  width: 65.7vw;
+  max-width: 43.799rem;
+  height: 37.12vw;
+  max-height: 24.749rem;
+  position: absolute;
+  top: 39%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+}
+.se4-video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+.section-5 {
+  min-height: 69rem;
+  padding-block: 50px;
+  border-bottom: 8px solid #222;
+  color: white;
+}
+.section-5 h2 {
+  font-weight: 800;
+}
+.sect-5-tp {
+  margin-block-end: 8px;
+}
+.sect-5-tp::after {
+  content: "+";
+  font-size: 3.5rem;
+  font-weight: 100;
+  position: absolute;
+  top: -1px;
+  right: 20px;
+}
+.sect-5-p {
+  margin-block-end: 8px;
+}
+.que-es {
+  position: relative;
+  display: block;
+  text-align: left;
+  background-color: #303030;
+}
+.se5-q1 {
+  width: 96%;
+  color: white;
+  font-weight: 600;
+  padding-block: 12px;
+  padding-inline-start: 20px;
+}
+.que-es-content {
+  position: relative;
+  z-index: 1;
+  padding-inline: 8px;
+  background-color: #303030;
+  border-top: 2px solid black;
+}
+.cuanto-cuesta {
+  position: relative;
+  display: block;
+  text-align: left;
+  background-color: #303030;
+}
+.se5-q2 {
+  width: 96%;
+  color: white;
+  font-weight: 600;
+  padding-block: 12px;
+  padding-inline-start: 20px;
+}
+.cuanto-cuesta-content {
+  position: relative;
+  z-index: 1;
+  padding-inline: 8px;
+  background-color: #303030;
+  border-top: 2px solid black;
+}
+.donde-ver {
+  position: relative;
+  display: block;
+  text-align: left;
+  background-color: #303030;
+}
+.se5-q3 {
+  width: 96%;
+  color: white;
+  font-weight: 600;
+  padding-block: 12px;
+  padding-inline-start: 20px;
+}
+.donde-ver-content {
+  position: relative;
+  z-index: 1;
+  padding-inline: 8px;
+  background-color: #303030;
+  border-top: 2px solid black;
+}
+.como-cancelo {
+  position: relative;
+  display: block;
+  text-align: left;
+  background-color: #303030;
+}
+.se5-q4 {
+  width: 96%;
+  color: white;
+  font-weight: 600;
+  padding-block: 12px;
+  padding-inline-start: 20px;
+}
+.como-cancelo-content {
+  position: relative;
+  z-index: 1;
+  padding-inline: 8px;
+  background-color: #303030;
+  border-top: 2px solid black;
+}
+.que-ofrece {
+  position: relative;
+  display: block;
+  text-align: left;
+  background-color: #303030;
+}
+.se5-q5 {
+  width: 96%;
+  color: white;
+  font-weight: 600;
+  padding-block: 12px;
+  padding-inline-start: 20px;
+}
+.que-ofrece-content {
+  position: relative;
+  z-index: 1;
+  padding-inline: 8px;
+  background-color: #303030;
+  border-top: 2px solid black;
+}
+.margin-block-despl {
+  margin-block-end: 0;
+}
+.margin-block-despl::after {
+  content: "+";
+  font-size: 3.5rem;
+  font-weight: 100;
+  position: absolute;
+  top: -1px;
+  right: 20px;
+  transform: rotate(45deg);
+}
+.se5-finalp {
+  margin-block-start: 21px;
+}
+.section-5 form {
+  padding: 0 1.6rem 1.4rem 1.6rem;
+}
+.section-5 button {
+  padding: 0.7rem 2rem;
+  background-color: #e30813;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 2rem;
+  width: 17.8rem;
+  height: 6.7rem;
+}
+
+footer {
+  height: fit-content;
+  padding: 50px 16px 0 16px;
+  color: #757575;
+}
+.fsection-1 {
+  margin-block-end: 1.7rem;
+  font-size: 1.8rem;
+}
+.fsection-2 {
+  display: flex;
+  flex-flow: row wrap;
+  margin-block: 1.7rem;
+}
+.fsection-2 div {
+  width: 50%;
+  font-size: 1.4rem;
+  margin-block: 1rem;
+}
+.f-false-div {
+  display: none;
+}
+.fsection-3 {
+  height: fit-content;
+  margin-block-end: 1.7rem;
+}
+.fsection-4 {
+  position: relative;
+  z-index: 1;
+  margin-block: 1.7rem;
+  font-size: 1.4rem;
+}
